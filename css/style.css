@@ -1,0 +1,701 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+html{
+    font-size: 15px;
+}
+a{
+    display: inline-block;
+    color: #fff;
+}
+img{
+    width: 100%;
+}
+
+
+/* header section */
+
+header{
+    background: rgba(0,0,0,0.26);
+    background: rgba(0,0,0,0.35);
+}
+.newClass{
+    top: -50px;
+    background-color: #2b3039;
+    transition: all .5s ease;
+    z-index: 99 ;
+}
+ul{
+    list-style: none;
+}
+header a{
+    padding: .5rem 1rem ;
+}
+header li:hover{
+    background: rgba(0,0,0,0.35);
+}
+header a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+header a i{
+    padding: 0 5px;
+}
+.size a{
+    font-size: 1.5rem;
+}
+header ul .pX{
+    padding: 0.8rem 1rem;
+}
+.search-icon{
+    background:rgba(0,0,0,0.35);
+    padding: 1rem;
+    font-size: 1.2rem;
+    transition: all 1s ease;
+    outline: none;
+    border: none;
+    display: none;
+    transition: all 1s ease;
+}
+
+.search-icon:hover {
+    color: #555;
+}
+
+.slidde:hover .search-icon {
+    display: block;
+}
+
+
+/* header section */
+
+
+/* navigation section */
+
+.navigation{
+    position: sticky;
+    top: 0;
+    border-top: 1px solid rgba(255,255,255,0.2)
+}
+.navigation .logo{
+    width: 25%;
+}
+.navigation a{
+    font-size: 1.2rem;
+    padding: 1.8rem 1rem;
+}
+.none{
+    display: none;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.navigation a i{
+    padding:0 5px;
+}
+
+
+
+.drop-menu {
+    display: none;
+    width: 200px;
+    position: absolute;
+    background-color: #2b3039;
+    min-width: 100px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+.drop-menu-item {
+    width: 100%;
+}
+
+.drop-menu-item:hover {
+    color: #555;
+}
+
+.drop-menu-item a {
+    padding: 8px 1rem;
+    color: #fff;
+}
+
+
+
+.drop-menu1 {
+    display: none;
+    width: 200px;
+    position: absolute;
+    background-color: #2b3039;
+    min-width: 100px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+.drop-menu-item1 {
+    width: 100%;
+}
+
+.drop-menu-item1:hover {
+    color: #555;
+}
+
+.drop-menu-item1 a {
+    padding: 8px 1rem;
+    color: #fff;
+}
+
+
+
+.drop-menu2 {
+    display: none;
+    width: 200px;
+    position: absolute;
+    background-color: #2b3039;
+    min-width: 100px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    left: 200px;
+}
+.drop-menu-item2 {
+    width: 100%;
+}
+
+.drop-menu-item2:hover {
+    color: #555;
+}
+
+.drop-menu-item2 a {
+    padding: 8px 1rem;
+    color: #fff;
+}
+.menu-item2:hover .drop-menu2 {
+    display: block;
+}
+
+
+.drop-menu3 {
+    display: none;
+    width: 200px;
+    position: absolute;
+    background-color: #2b3039;
+    min-width: 100px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    left: 200px;
+}
+.drop-menu-item3 {
+    width: 100%;
+}
+
+.drop-menu-item3:hover {
+    color: #555;
+}
+.drop-menu-item3 a {
+    padding: 8px 1rem;
+    color: #fff;
+}
+.menu-item3:hover .drop-menu3 {
+    display: block;
+}
+
+
+
+.drop-menu4 {
+    display: none;
+    width: 200px;
+    position: absolute;
+    background-color: #2b3039;
+    min-width: 100px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    left: 200px;
+}
+.drop-menu-item4 {
+    width: 100%;
+}
+
+.drop-menu-item4:hover {
+    color: #555;
+}
+.drop-menu-item4 a {
+    padding: 8px 1rem;
+    color: #fff;
+}
+.menu-item4:hover .drop-menu4 {
+    display: block;
+}
+
+
+.drop-menu5{
+    display: none;
+    width: 200px;
+    position: absolute;
+    background-color: #2b3039;
+    min-width: 100px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    left: 200px;
+}
+.drop-menu-item5{
+    width: 100%;
+}
+
+.drop-menu-item5:hover {
+    color: #555;
+}
+.drop-menu-item5 a {
+    padding: 8px 1rem;
+    color: #fff;
+}
+.menu-item5:hover .drop-menu5 {
+    display: block;
+}
+
+
+.drop-menu6{
+    display: none;
+    width: 200px;
+    position: absolute;
+    background-color: #2b3039;
+    min-width: 100px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    left: 200px;
+}
+.drop-menu-item6{
+    width: 100%;
+}
+
+.drop-menu-item6:hover {
+    color: #555;
+}
+.drop-menu-item6 a {
+    padding: 8px 1rem;
+    color: #fff;
+}
+.menu-item6:hover .drop-menu6 {
+    display: block;
+}
+
+
+/* navigation section */
+
+
+/* banner section */
+
+.banner{
+    background: url(..//img/hero-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 800px;
+    min-height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textbox h1{
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 2px 1px 2px black;
+}
+.textbox h3{
+    color: rgba(255,255,255,0.7);
+    text-shadow: 2px 1px 2px black;
+}
+.textbox a{
+    color: #007bff;
+}
+
+/* banner section */
+
+
+/* destination section */
+
+.destination .container{
+    top: -100px;
+}
+.destination h4{
+    color: #fff;
+}
+.destination .design{
+    padding: 5px 1rem;
+    background-color: #6dc234;
+    border-radius: 5px;
+    color: #fff;
+}
+.destination .card .details{
+    padding: 1rem 8px;
+}
+.destination .card{
+    box-shadow: 1px 1px 5px #363c48;
+    margin-bottom: 20px;
+}
+.destination .card a{
+    display: block;
+    color: #95979c;
+}
+.destination .card a:hover{
+    color: #007bff;
+}
+.destination .card .title{
+    font-size: 1.2rem;
+    color: #363c48;
+    font-weight: 600;
+}
+.destination .card a i{
+    padding-right: 5px;
+}
+
+
+/* destination section */
+
+/* Explore section */
+
+.explore a{
+    color: #6dc234;
+}
+.explore input{
+    width: 100%;
+    border: 2px solid #e9eaeb;
+    background: transparent;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    transition: all 1s ease;
+}
+.explore input:hover{
+    border: 3px solid #363c48;
+    outline: none;
+}
+
+/* Explore section */
+
+
+/* adventure section */
+
+.adventure .card{
+    height: 500px;
+    min-height: 200px;
+    margin-bottom: 2rem;
+}
+.adventure .details{
+    height: 20%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.adventure .details p{
+    font-size: 13px;
+    color: #95979c;
+}
+.adventure .img1{
+    height: 44%;
+    background: url(..//img/destinations-20-960x540.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-shadow: #000;
+}
+.adventure .img1:hover{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.adventure .textbox{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    bottom: 0;
+}
+.adventure .textbox i{
+    font-size: 2rem;
+    padding: 1rem;
+}
+.adventure .img2{
+    height: 15%;
+    background: url(..//img/destinations-11-960x540.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    padding-top: 1rem;
+}
+.adventure .img3{
+    height: 15%;
+    background: url(..//img/destinations-10-960x540.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 1rem;
+    color: #000;
+}
+.adventure .find{
+    height: 6%;
+    text-align: right;
+}
+.adventure .find a{
+    color: #363c48;
+    padding: 5px 0;
+    font-weight: 600;
+}
+.adventure .card2 .img1{
+    background: url(..//img/destinations-14-960x540.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.adventure .card2 .img2{
+    background: url(..//img/destinations-13-960x540.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.adventure .card2 .img3{
+    background: url(..//img/destinations-5-960x540.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+
+}
+.adventure .card3 .img1{
+    background: url(..//img/destinations-22-960x540.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.adventure .card3 .img2{
+    background: url(..//img/destinations-19-960x540.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.adventure .card3 .img3{
+    background: url(..//img/destinations-21-960x540.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+.read{
+    padding: 8px 2rem;
+    background-color: #6dc234;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin: 20px auto;
+    outline: none;
+    border: none;
+    opacity: 0;
+    transition: all .3s ease;
+}
+.card:hover .read {
+    opacity: 1;
+}
+
+
+/* adventure section */
+
+
+/* package section */
+
+.package{
+    color: #fff;
+}
+.portugal{
+    background: url(..//img/destination-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    min-height: 500px;
+}
+.london{
+    background: url(..//img/destination-2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    min-height: 500px;
+}
+.Italy{
+    background: url(..//img/destination-3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    min-height: 200px;
+}
+.South{
+    background: url(..//img/destination-4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    min-height: 500px;
+}
+.North{
+    background: url(..//img/destination-5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    min-height: 500px;
+}
+.package h1{
+    font-size: 3rem;
+    font-weight: 600;
+    text-shadow: 2px 1px 2px black;
+}
+.package p{
+    font-size: 1.8rem;
+    line-height: 30px;
+    padding: 1.5rem 0;
+}
+.package a{
+    padding: 8px 1.2rem;
+    background-color: #6dc234;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+.package a:hover{
+    background-color: #4fa742;
+    text-decoration: none;
+}
+
+
+/* package section */
+
+
+/* blogs section */
+
+.blogs .design{
+    padding: 5px 1rem;
+    background-color: #6dc234;
+    border-radius: 5px;
+    color: #fff;
+}
+.blogs a:hover{
+    color: #fff;
+    opacity: .9;
+}
+.blogs .card{
+    color: #fff;
+}
+.mmm{
+    bottom: 0;
+}
+
+
+/* blogs section */
+
+
+/* sub-footer section */
+
+.sub-footer a{
+    color: #999;
+}
+.sub-footer a:hover{
+    color: #4e4e4e;
+}
+.sub-footer p{
+    color: #aaa;
+}
+.sub-footer .bord{
+    border-left: 1px solid #999;
+}
+
+/* sub-footer section */
+
+
+/* footer section */
+
+footer{
+    color: #aaa;
+}
+footer a{
+    color: #999;
+}
+footer a:hover{
+    color: #4e4e4e;
+}
+
+/* footer section */
+
+@media only screen and (min-width:996px){
+    .menu-item:hover .drop-menu {
+        display: block;
+    }
+    .menu-item1:hover .drop-menu1 {
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width:996px){
+
+
+    header nav{
+        display: none;
+    }
+    .none1{
+        display: none;
+    }
+    .navigation .tpggle{
+        display: none;
+        position: absolute;
+        top: 0;
+        z-index: 6;
+        top: 80px;
+        background: #363c48;
+        width: 100%;
+        left: 0;
+    }
+    .drop-menu{
+        position: relative;
+        width: 100%;
+    }
+    .drop-menu1{
+        position: relative;
+        width: 100%;
+    }
+    .drop-menu2{
+        position: relative;
+        width: 100%;
+    }
+    .drop-menu3{
+        position: relative;
+        width: 100%;
+    }
+    .drop-menu4{
+        position: relative;
+        width: 100%;
+    }
+    .drop-menu5{
+        position: relative;
+        width: 100%;
+    }
+    .drop-menu6{
+        position: relative;
+        width: 100%;
+    }
+    .newClass{
+        top: 0;
+    }
+
+
+    .flex{
+        flex-flow: column;
+        margin: 0;
+    }
+    .none{
+        display: block;
+    }
+    .navigation .logo{
+        width: 50%;
+    }
+}   
+@media only screen and (max-width:572px){
+    html{
+        font-size: 12px;
+    }
+    .banner{
+        height: 0;
+    }
+    .textbox h1{
+        font-size: 2.5rem;
+    }
+    .textbox h3{
+        font-size: 1.5rem;
+    }
+}
