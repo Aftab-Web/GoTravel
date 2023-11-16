@@ -9,6 +9,7 @@ html{
 a{
     display: inline-block;
     color: #fff;
+    scroll-behavior: smooth;
 }
 img{
     width: 100%;
@@ -77,17 +78,31 @@ header ul .pX{
 .navigation{
     position: sticky;
     top: 0;
-    border-top: 1px solid rgba(255,255,255,0.2)
+    border-top: 1px solid rgba(255,255,255,0.2);
 }
 .navigation .logo{
     width: 25%;
 }
-.navigation a{
+.navigation li{
     font-size: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+}
+.navigation li span{
     padding: 1.8rem 1rem;
+    display: inline-block;
+}
+.navigation li i{
+    padding-right: 6px;
 }
 .none{
     display: none;
+    cursor: pointer;
+}
+.none i{
+    color: #fff;
+    font-size: 24px;
 }
 .flex{
     display: flex;
@@ -101,11 +116,16 @@ header ul .pX{
 
 .drop-menu {
     display: none;
+    left: 0;
     width: 200px;
     position: absolute;
     background-color: #2b3039;
     min-width: 100px;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+.drop-menu li{
+    padding: 1rem 2rem;
+    align-items: center;
 }
 .drop-menu-item {
     width: 100%;
@@ -115,10 +135,10 @@ header ul .pX{
     color: #555;
 }
 
-.drop-menu-item a {
+/* .drop-menu-item a {
     padding: 8px 1rem;
     color: #fff;
-}
+} */
 
 
 
@@ -153,6 +173,7 @@ header ul .pX{
     min-width: 100px;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
     left: 200px;
+    top: 0;
 }
 .drop-menu-item2 {
     width: 100%;
@@ -179,6 +200,8 @@ header ul .pX{
     min-width: 100px;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
     left: 200px;
+    top: 0;
+
 }
 .drop-menu-item3 {
     width: 100%;
@@ -205,6 +228,8 @@ header ul .pX{
     min-width: 100px;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
     left: 200px;
+    top: 0;
+
 }
 .drop-menu-item4 {
     width: 100%;
@@ -230,6 +255,8 @@ header ul .pX{
     min-width: 100px;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
     left: 200px;
+    top: 0;
+
 }
 .drop-menu-item5{
     width: 100%;
@@ -255,6 +282,7 @@ header ul .pX{
     min-width: 100px;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
     left: 200px;
+    top: 0;
 }
 .drop-menu-item6{
     width: 100%;
@@ -613,6 +641,7 @@ footer a:hover{
 /* footer section */
 
 @media only screen and (min-width:996px){
+
     .menu-item:hover .drop-menu {
         display: block;
     }
@@ -624,7 +653,9 @@ footer a:hover{
 
 @media only screen and (max-width:996px){
 
-
+    .navigation{
+        height: 60px;
+    }
     header nav{
         display: none;
     }
@@ -636,7 +667,7 @@ footer a:hover{
         position: absolute;
         top: 0;
         z-index: 6;
-        top: 80px;
+        top: 60px;
         background: #363c48;
         width: 100%;
         left: 0;
@@ -684,8 +715,17 @@ footer a:hover{
     .navigation .logo{
         width: 50%;
     }
-}   
+}
+@media only screen and (max-width:768px){
+    .navigation .tpggle{
+        top: 58px;
+    }
+}
 @media only screen and (max-width:572px){
+    .navigation{
+        display: flex;
+    align-items: center;
+    }
     html{
         font-size: 12px;
     }
@@ -697,8 +737,5 @@ footer a:hover{
     }
     .textbox h3{
         font-size: 1.5rem;
-    }
-    .tpggle{
-        top: 65px;
     }
 }
